@@ -1,0 +1,27 @@
+name: nova_ai_assistant
+description: "A generative AI application built with Amazon Nova on AWS."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Compatible with Dart 3.8.1
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  http: ^1.1.0
+  image_picker: ^1.0.4
+  path_provider: ^2.1.1
+  flutter_markdown: ^0.6.18 # Removed the +4, added ^ for auto-resolution
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
